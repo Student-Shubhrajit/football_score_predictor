@@ -1,0 +1,76 @@
+{
+  "features": [
+    "home_rating_overall",
+    "home_rating_attack",
+    "home_rating_midfield",
+    "home_rating_defense",
+    "home_rating_gk",
+    "away_rating_overall",
+    "away_rating_attack",
+    "away_rating_midfield",
+    "away_rating_defense",
+    "away_rating_gk",
+    "diff_overall",
+    "diff_attack_defense_h",
+    "diff_attack_defense_a",
+    "diff_midfield",
+    "diff_att_gk_h",
+    "diff_att_gk_a",
+    "home_ppg_last5",
+    "home_gf_last5",
+    "home_ga_last5",
+    "home_gd_last5",
+    "home_win_rate_last5",
+    "away_ppg_last5",
+    "away_gf_last5",
+    "away_ga_last5",
+    "away_gd_last5",
+    "away_win_rate_last5",
+    "h2h_matches_prior",
+    "h2h_home_win_rate",
+    "h2h_away_win_rate",
+    "h2h_home_avg_goals",
+    "h2h_away_avg_goals",
+    "home_rest_days",
+    "away_rest_days",
+    "rest_diff"
+  ],
+  "validation_metrics": {
+    "split": "Validation",
+    "sample_count": 322,
+    "home_goals": {
+      "MAE": 0.962,
+      "RMSE": 1.241,
+      "Poisson_Deviance": 1.115
+    },
+    "away_goals": {
+      "MAE": 0.866,
+      "RMSE": 1.132,
+      "Poisson_Deviance": 1.137
+    },
+    "match_level": {
+      "exact_score_accuracy_pct": 14.6,
+      "outcome_1x2_accuracy_pct": 65.22,
+      "btts_accuracy_pct": 61.18
+    }
+  },
+  "test_metrics": {
+    "split": "Test (Holdout)",
+    "sample_count": 322,
+    "home_goals": {
+      "MAE": 0.984,
+      "RMSE": 1.272,
+      "Poisson_Deviance": 1.18
+    },
+    "away_goals": {
+      "MAE": 0.905,
+      "RMSE": 1.153,
+      "Poisson_Deviance": 1.213
+    },
+    "match_level": {
+      "exact_score_accuracy_pct": 14.91,
+      "outcome_1x2_accuracy_pct": 62.11,
+      "btts_accuracy_pct": 59.32
+    }
+  }
+}
