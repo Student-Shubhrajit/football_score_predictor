@@ -87,8 +87,7 @@ st.markdown(
 # Header Section
 st.title("⚽ AI Football Score & Match Predictor")
 st.markdown(
-    "Predict exact football match scorelines, expected goals ($xG$), and outcome probabilities "
-    "for **Indian Super League (ISL)** and **Premier League** clubs driven by **starting lineup player ratings** and **previous match data**."
+    "Predict the football match scorelines."
 )
 
 # Sidebar Configuration
